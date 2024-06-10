@@ -1,29 +1,87 @@
-Python task sheet - ans sheet:-
+Python task – June 8
+QnA(s):
 
-============= June 8 ================
-
-What is print (in detail)?
+1)	Print () function:
 
 Ans: Print is a function used for printing info on the interface medium (screen/output device). 
 
-Print (syntax) :
+Syntax: print (object(s)) - most commonly used.
 
-print (object(s)) - most commonly used.
+E.g. print(20), print("string") – print one entity.
+  print("Hello", "how are you?") – print multiple entities.
+  x = ["apple", "banana", "cherry"];
+  print(x) -> prints a list.
 
-g: print(20) - prints an integer directly. print("string") - prints a string. For linear data that isn't stored, there are limitations when it comes to flexibility in dealing with different nature of data. 
+2)	What is a function?
 
-To use print for complex functions, we require the data to be stored in some sort of data structure.
+Ans: A function is a block of code which only runs when it is called. You can pass data, known as parameters (arguments), into a function. A function can return data as a result.
 
-What is a function?
+From a function's perspective:- A parameter is the variable listed inside the parentheses in the function definition. An argument is the value that is sent to the function when it is called.
 
-A function acts as a medium to perform desired functionality. Functions are in place to execute the job. print() is one such common function. 
+Functions help the coder to reduce code redundancy.
+
+Syntax:- def func(args1, args2)  
+          args1 = x
+          args2 = y
+          func()
+
+3)	In-built functions:
+
+They are functions that can be directly called, without the need to create one for the designated purpose.
+print() is an in-built function that helps to print the value to a output screen or display.
+
+4) Any five in-built functions:
+
+ans: input(), int(), bool(), filter(), list(), len(), range(), set(), type(), etc.
+
+5) difference between an interpreter and a compiler?
+
+  Both interpreter and compiler acts as a translator for the machine.
+
+  Interpreter interprets the code base in a line-to-line fashion and often executes one (line) properly before proceeding to the next one. In case c 
+  an error is resulted, the IDLE terminates the code execution until the error is resolved.
+
+  Compiler does the opposite as it compiles an entire code file to translate it to the machine language. Errors resulted are required to be 
+  meticulously debugged.
+
+6)	Python 3.12 speciality:
+
+-> Better error messages with helpful suggestions and guidance.
+-> More expressive f-strings that are backed by Python’s PEG parser.
+-> Optimizations, including inlined comprehensions, for a faster Python.
+-> A new syntax for type variables that you use to annotate generics.
+-> Support for the powerful perf. profiler on Linux.
+
+7) Keywords in python:
+  
+  Keywords are essentialy part of the syntax in order to construct code. These help the machine to identify the action to be performed in an 
+  efficient manner.
+
+  10 keywords: and, break, continue, pass, import, if, else, elif, finally, try, except, etc.
+
+8) Arithmetic/Assignment operators:
+
+Arithmetic Operators: + - * / % // ** (totally 7)
+Assignment operators: = >= <= != == 
+
+9) Understand rules for creating variable
+
+  A variable can be created only with;
+  i) alphabets as origination.
+  ii) no special characters or integers before any alphabet (must not start with these)
+  iii) exception to the above rule is  _
+  iv) a & A are completely different and does not indicate any similarity. Camelcase is followed as well.
+
+10) PEP and camelCase
+
+PEP - Python Enhancement Proposal.  A PEP is a design document that informs the Python community or describes a new feature for Python, its processes, or its environment.
+
+CamelCase: Usually denotes the sentence case that is used for writing standards. Here in code writing, CamelCase is used to improve and maintain better readability and identification.
+
+  
 
 
-inbuilt function
-5 inbuilt function print,len, type, 
-interpreter / compiler
-python 3.12 speciality 
-keywords in python (10)
-operators Arithmetic / Assignment
-Understand rules for creating variable
-PEP and camelCase
+
+
+
+
