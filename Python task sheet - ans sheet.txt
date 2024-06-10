@@ -72,6 +72,12 @@ Assignment operators: = >= <= != ==
   iii) exception to the above rule is  _
   iv) a & A are completely different and does not indicate any similarity. Camelcase is followed as well.
 
+Below is a self-reference to the 3 main rules of variable creation obtained from intro class code file.
+
+#variable can use a-zA-Z0-9_ (alphanumeric) (Special char should not be there)
+#variable should start with a-z or A-Z or _ (you should not start with 0-9)
+#you should not have any spaces (_ are allowed)
+
 10) PEP and camelCase
 
 PEP - Python Enhancement Proposal.  A PEP is a design document that informs the Python community or describes a new feature for Python, its processes, or its environment.
