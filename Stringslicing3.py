@@ -1,0 +1,17 @@
+var = "python_interpreter"
+
+print(var[1:3])
+print(var[0:5])
+print(var[-5:-2])
+print(var[:3])
+print(var[3:])
+print(var[:])
+print(var[3:10])
+print(var[2:5])
+print(var[0:10])
+print(var[5:-5])
+print(var[2:8])
+print(var[:8])
+print(var[5:])
+print(var[8:12])
+print(var[12:5])
