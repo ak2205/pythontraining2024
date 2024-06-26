@@ -67,3 +67,6 @@ print(y[-10:])
 print(y[:])
 print(y[4:100])
 print(y[12:5])
+
+w="string_slicing_operation"
+print(w[12:5:-3])
